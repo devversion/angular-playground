@@ -13,6 +13,7 @@ jobs:
 
       - run: yarn --frozen-lockfile --non-interactive
       - run: yarn build
+      - run: cp CNAME dist/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
