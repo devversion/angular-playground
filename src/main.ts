@@ -1,4 +1,4 @@
-import {PlaygroundIde} from '../node_modules/playground-elements/playground-ide';
+import {PlaygroundIde} from 'playground-elements/playground-ide';
 
 async function main() {
   const ide = document.querySelector('playground-ide') as PlaygroundIde;
