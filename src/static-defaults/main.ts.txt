@@ -1,4 +1,4 @@
-import 'zone.js/bundles/zone.umd.js';
+import 'zone.js';
 import '@angular/compiler';
 
 import {Component, NgModule} from '@angular/core';
