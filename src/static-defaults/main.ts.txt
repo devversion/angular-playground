@@ -1,0 +1,21 @@
+import 'zone.js/bundles/zone.umd.js';
+import '@angular/compiler';
+
+import {Component, NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+
+@Component({
+    selector: 'app-root',
+    template: 'Hello from Angular',
+})
+class AppComponent {}
+
+@NgModule({
+    bootstrap: [AppComponent],
+    declarations: [AppComponent],
+    imports: [BrowserModule],
+})
+class AppModule {}
+
+platformBrowserDynamic().bootstrapModule(AppModule)
